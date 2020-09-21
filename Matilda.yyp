@@ -7,6 +7,7 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":0,},
     {"id":{"name":"spr_lvl2","path":"sprites/spr_lvl2/spr_lvl2.yy",},"order":16,},
     {"id":{"name":"obj_lvl2","path":"objects/obj_lvl2/obj_lvl2.yy",},"order":1,},
+    {"id":{"name":"snd_puerta","path":"sounds/snd_puerta/snd_puerta.yy",},"order":0,},
     {"id":{"name":"obj_puerta","path":"objects/obj_puerta/obj_puerta.yy",},"order":0,},
     {"id":{"name":"obj_jon","path":"objects/obj_jon/obj_jon.yy",},"order":0,},
     {"id":{"name":"obj_matilda","path":"objects/obj_matilda/obj_matilda.yy",},"order":1,},

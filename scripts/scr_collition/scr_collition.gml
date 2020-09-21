@@ -7,7 +7,6 @@ function scr_colitionSystem(){
 		if(place_meeting(x+move_X,y,obj_interactuable)){
 			
 			repeat(abs(move_X)){
-				show_debug_message("asdf")
 				if(!place_meeting(x+sign(move_X),y,obj_interactuable)){ x += sign(move_X) }
 			
 			}
