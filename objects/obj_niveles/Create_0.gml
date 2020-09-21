@@ -2,5 +2,6 @@
 // Puede escribir su código en este editor
 created = false;
 cantPuertas = 6;
-puertas = []
+puertas = [];
+enemigo = [];
 areaAggro = 200;

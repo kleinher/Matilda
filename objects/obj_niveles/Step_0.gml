@@ -13,6 +13,8 @@ if(distance_to_object(obj_jon) < camera_get_view_height(view_camera[0]) and !cre
 	created = true;
 
 }
+
+//OPEN THE DOOR OF JOHN IS NEARBY
 if(created){
 	for(i = 0; i < array_length(puertas); i+=1){
 		if(point_distance(puertas[i].x,puertas[i].y, obj_jon.x, obj_jon.y) < areaAggro){
@@ -21,8 +23,8 @@ if(created){
 			if(!puertas[i].abierta){
 				audio_play_sound(snd_puerta,1,false);
 				puertas[i].abierta = true;
+				enemigo[i] = instance_create_layer(puertas[i].x ,puertas[i].y - 32,"Lvl1",obj_corrupto);
 			}
-			
 		}
 	}
 }
