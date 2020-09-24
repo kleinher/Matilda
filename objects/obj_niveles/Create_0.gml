@@ -1,7 +1,7 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 created = false;
-cantPuertas = 6;
+cantPuertas = 3;
 puertas = [];
 enemigo = [];
-areaAggro = 200;
+areaAggro = 100;

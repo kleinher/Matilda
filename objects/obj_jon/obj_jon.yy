@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_jon",
-    "path": "sprites/spr_jon/spr_jon.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
