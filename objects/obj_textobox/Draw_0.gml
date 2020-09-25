@@ -4,7 +4,7 @@
 // Draw sprite
 texto = "Todo piola perrito????? Yo nada aca tirando"
 
-draw_sprite_ext(spr_MatildaTextBox,0,x,y,-1,1,0,c_white,1);
+draw_sprite_ext(spr_leon,0,x,y,-1,1,0,c_white,1);
 draw_sprite_ext(spr_textBox,0,x,y,1,1,0,c_white,0.5);
 
 // Draw text
