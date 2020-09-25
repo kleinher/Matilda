@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_wall",
-    "path": "sprites/spr_wall/spr_wall.yy",
+    "name": "spr_esquina",
+    "path": "sprites/spr_esquina/spr_esquina.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_interactuable",
-    "path": "objects/obj_interactuable/obj_interactuable.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_Lwall","path":"objects/obj_Lwall/obj_Lwall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -33,7 +28,7 @@
     "path": "folders/Objects/Entorno.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Lwall",
+  "name": "obj_esquina",
   "tags": [],
   "resourceType": "GMObject",
 }
