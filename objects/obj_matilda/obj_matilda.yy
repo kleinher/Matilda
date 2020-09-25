@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "srp_matilda",
-    "path": "sprites/srp_matilda/srp_matilda.yy",
+    "name": "spr_matilda",
+    "path": "sprites/spr_matilda/spr_matilda.yy",
   },
   "solid": false,
   "visible": true,

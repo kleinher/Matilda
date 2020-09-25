@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 172,
-  "height": 219,
+  "width": 128,
+  "height": 163,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ce728eef-ad65-4548-8338-c46f52bfe545","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Gente",
+    "path": "folders/Sprites/Gente.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_leon",

@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 407,
-  "height": 403,
+  "width": 128,
+  "height": 127,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d9317c38-50cb-473f-acb1-7222d98cdf56","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Gente",
+    "path": "folders/Sprites/Gente.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_MatildaTextBox",

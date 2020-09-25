@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ee200144-c5ee-407e-93cd-99e8e454b2d8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Cosas",
+    "path": "folders/Sprites/Cosas.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_floor",
