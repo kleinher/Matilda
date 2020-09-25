@@ -19,12 +19,10 @@ if(movimiento > 0){
 	sprite_index = spr_d;
 	image_index = 0;
 }
-show_debug_message(alarm[0]);
 if(alarm[0] <= 1	){	
 	inst = instance_create_layer(x,y,"Bullets",obj_bullet);
 	dir = point_direction(x,y, obj_jon.x, obj_jon.y);;
 	inst.direction = dir;
 	inst.image_angle = dir;
 	audio_play_sound(snd_gun,1,false);
-	show_debug_message("asdfas")
 }

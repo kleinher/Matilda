@@ -31,7 +31,7 @@
     "path": "folders/Objects/Entorno.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_wall",
+  "name": "obj_Rwall",
   "tags": [],
   "resourceType": "GMObject",
 }

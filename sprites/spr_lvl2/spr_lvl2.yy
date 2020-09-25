@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"415e44dd-52ba-4958-9601-6fc78d3fb780","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Matilda",
-    "path": "Matilda.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_lvl2",

@@ -1,8 +1,16 @@
 
 
-if(object_exists(obj_jon)){
+
+
+
+x += (xTo-x)/25;
+y += (yTo-y)/25;
+
+if(follow != noone){
+	xTo = follow.x;
+	yTo = follow.y;
 	
-	var amount = 0.1;
-	x=obj_jon.x
-	y=obj_jon.y
 }
+
+var vm = matrix_build_lookat(x,y,-10,x,y,0,0,1,0)
+camera_set_view_mat(camera,vm)
