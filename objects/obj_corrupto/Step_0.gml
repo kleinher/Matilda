@@ -2,4 +2,4 @@
 // Puede escribir su código en este editor
 
 
-//script_execute(script_state[state]);
+script_execute(script_state[state]);
