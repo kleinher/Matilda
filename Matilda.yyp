@@ -49,6 +49,7 @@
     {"id":{"name":"spr_jon","path":"sprites/spr_jon/spr_jon.yy",},"order":9,},
     {"id":{"name":"spr_dl","path":"sprites/spr_dl/spr_dl.yy",},"order":1,},
     {"id":{"name":"spr_backWall","path":"sprites/spr_backWall/spr_backWall.yy",},"order":0,},
+    {"id":{"name":"Sprite36","path":"sprites/Sprite36/Sprite36.yy",},"order":12,},
     {"id":{"name":"obj_niveles","path":"objects/obj_niveles/obj_niveles.yy",},"order":2,},
     {"id":{"name":"scr_enemy_attack","path":"scripts/scr_enemy_attack/scr_enemy_attack.yy",},"order":2,},
     {"id":{"name":"spr_ur","path":"sprites/spr_ur/spr_ur.yy",},"order":8,},
