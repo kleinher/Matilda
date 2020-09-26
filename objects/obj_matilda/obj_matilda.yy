@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_matilda",
-    "path": "sprites/spr_matilda/spr_matilda.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
