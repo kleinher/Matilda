@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"66373602-2528-460d-bdcd-270c6716dfb2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Cosas",
-    "path": "folders/Sprites/Cosas.yy",
+    "name": "Entorno",
+    "path": "folders/Sprites/Entorno.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_esquina",

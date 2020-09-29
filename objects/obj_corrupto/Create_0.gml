@@ -9,9 +9,10 @@ script_state[states.attack] = scr_enemy_attack;
 
 state = 0;
 counter = 0;
-spd = .5;
+spd = 2;
 
 my_dir = irandom_range(0,359);
-moveX = lengthdir_x(spd, my_dir);
-moveY = lengthdir_y(spd, my_dir);
+move_X = lengthdir_x(spd, my_dir);
+move_Y = lengthdir_y(spd, my_dir);
 counter = 0;
+image_speed = .4

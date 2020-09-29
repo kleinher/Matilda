@@ -13,8 +13,8 @@
   "soundFile": "snd_puerta.wav",
   "duration": 0.307585,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Sonidos",
+    "path": "folders/Sounds/Sonidos.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_puerta",

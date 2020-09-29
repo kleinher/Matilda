@@ -7,7 +7,6 @@ for (var i = 0; i < ww; i++;)
     {
     for (var j = 0; j < hh; j++;)
         {
-        show_debug_message(string(file_grid[# i, j]));
         yy += 32;
         }
     yy = 32;

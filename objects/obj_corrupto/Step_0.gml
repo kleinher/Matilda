@@ -3,3 +3,5 @@
 
 
 script_execute(script_state[state]);
+//Collition
+scr_collition();

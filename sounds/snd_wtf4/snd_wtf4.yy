@@ -13,8 +13,8 @@
   "soundFile": "snd_wtf4.wav",
   "duration": 0.879558,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Sonidos",
+    "path": "folders/Sounds/Sonidos.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_wtf4",

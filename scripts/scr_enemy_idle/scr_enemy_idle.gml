@@ -11,10 +11,11 @@ function scr_enemy_idle(){
 			case 1: counter = 0; break;
 		}
 	}
-	if(collision_circle(x,y,64, obj_jon, false, false)){
-		state = states.alert;	
+	if(collision_circle(x,y,200, obj_jon, false, false)){
+		state = states.alert;
 	}
 	
 	//Sprite
-	sprite_index = spr_d;
+	sprite_index = spr_enemigoD;
+	image_index = 0;
 }

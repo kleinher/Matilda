@@ -17,20 +17,20 @@
 		move_X = lengthdir_x(spd,dir);
 		move_Y = lengthdir_y(spd,dir);
 		switch(dir){
-			case 0: sprite_index = spr_r; break;
-			case 45:sprite_index = spr_ur;break;
-			case 90:sprite_index = spr_u; break;
-			case 135:sprite_index = spr_ul;break;
-			case 180:sprite_index = spr_l; break;
-			case 225:sprite_index = spr_dl;break;
-			case 270:sprite_index = spr_d; break;
-			case 315:sprite_index = spr_dr;break;
+			case 0: sprite_index = spr_leon_l;image_xscale = -1;break;
+			case 45:sprite_index = spr_leon_ul;image_xscale = 1;break;
+			case 90:sprite_index = spr_leon_u; break;
+			case 135:sprite_index = spr_leon_ul;image_xscale = -1;break;
+			case 180:sprite_index = spr_leon_l; image_xscale = 1;break;
+			case 225:sprite_index = spr_leon_dl;image_xscale = 1;break;
+			case 270:sprite_index = spr_leon_d; break;
+			case 315:sprite_index = spr_leon_dl;image_xscale = -1;break;
 		}
 	}else{
 		image_index = 0;	
 	}
 	
-	scr_colitionSystem();
+	scr_collition();
 	x += move_X;
 	y += move_Y;
 	

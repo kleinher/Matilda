@@ -1,31 +1,34 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_enemy_wander(){
+function scr_enemy_wonder(){
 	//Behaviour
+	
 	counter += 1;
-	x += moveX;
-	y += moveY;
+	x += move_X;
+	y += move_Y;
 	
 	//Transition Triggers
-	if(counter >= room_speed *3){
+	if(counter >= room_speed*3){
 		var change = choose(0,1);
 		switch(change){
-			case 0: state = states.idle;
-			break;
+			case 0: state = states.idle; break;
 			case 1:
 				my_dir = irandom_range(0,359);
-				moveX = lengthdir_x(spd, my_dir);
-				moveY = lengthdir_y(spd, my_dir);
+				move_X = lengthdir_x(spd, my_dir);
+				move_Y = lengthdir_y(spd, my_dir);
 				counter = 0;
 			break;
 		
 		}
 	}
-	if(collision_circle(x,y,64,obj_player,false,false)){
+	if(collision_circle(x,y,100,obj_jon,false,false)){
 		state = states.alert;	
 	}
+	scr_collition();
+	
 	
 	//Sprite
-	sprite_index = spr_enemy;
-	image_xscale = sign(moveX);
+	sprite_index = spr_enemigoD;
+	//image_xscale = sign(move_X);
+	
 }

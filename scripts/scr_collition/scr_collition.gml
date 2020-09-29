@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_colitionSystem(){
+function scr_collition(){
 //-------------------DETECT COLITION WITH SOME OBJECT
 	//----- HORIZONTAL
 	if(move_X != 0 ){
