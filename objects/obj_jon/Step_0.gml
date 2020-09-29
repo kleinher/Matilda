@@ -1,3 +1,8 @@
+
+//THIS IS FOR PAUSE PURPUSE
+if(vivir){
+	
+	
 	//--------------SPEED BY WITCH THE PLAYER MOVES NORMALLY
 	//--------------WHERE I WANT TO MOVE
 	move_up = keyboard_check(ord("W"));
@@ -6,7 +11,7 @@
 	move_right = keyboard_check(ord("D"));
 	left_clic = mouse_check_button_pressed(mb_left);
 	space = keyboard_check(vk_space);
-	
+
 	
 	//--------------------PLAYER MOVEMENT CALCULUS
 	move_Y = (move_down - move_up);
@@ -42,10 +47,5 @@
 		inst.image_angle = dir;
 		audio_play_sound(snd_gun,1,false)
 	}
-	//----------SPRITES
-	if(space){
-	spd = 12;	
-		
-	}else{
-	spd = 6;	
-	}
+	
+}else{ image_index = 0; }

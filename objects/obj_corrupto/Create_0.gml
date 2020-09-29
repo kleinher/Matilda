@@ -1,7 +1,7 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 
-
+event_inherited();
 script_state[states.idle] = scr_enemy_idle;
 script_state[states.wonder] = scr_enemy_wonder;
 script_state[states.alert] = scr_enemy_alert;
