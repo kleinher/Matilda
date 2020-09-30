@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_jon",
-    "path": "sprites/spr_jon/spr_jon.yy",
+    "name": "spr_leon_d",
+    "path": "sprites/spr_leon_d/spr_leon_d.yy",
   },
   "solid": false,
   "visible": true,

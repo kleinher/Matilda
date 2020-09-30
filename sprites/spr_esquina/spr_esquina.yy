@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f19345d2-057c-43cb-ac96-3ddf737443f4","path":"sprites/spr_esquina/spr_esquina.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f19345d2-057c-43cb-ac96-3ddf737443f4","path":"sprites/spr_esquina/spr_esquina.yy",},"LayerId":{"name":"66373602-2528-460d-bdcd-270c6716dfb2","path":"sprites/spr_esquina/spr_esquina.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_esquina","path":"sprites/spr_esquina/spr_esquina.yy",},"resourceVersion":"1.0","name":"f19345d2-057c-43cb-ac96-3ddf737443f4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"47677ecb-dd41-499e-843a-0f120f2bd111","path":"sprites/spr_Esquina/spr_Esquina.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"47677ecb-dd41-499e-843a-0f120f2bd111","path":"sprites/spr_Esquina/spr_Esquina.yy",},"LayerId":{"name":"204149c8-23f1-4f92-99ce-5b38d2e2627f","path":"sprites/spr_Esquina/spr_Esquina.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Esquina","path":"sprites/spr_Esquina/spr_Esquina.yy",},"resourceVersion":"1.0","name":"47677ecb-dd41-499e-843a-0f120f2bd111","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_esquina","path":"sprites/spr_esquina/spr_esquina.yy",},
+    "spriteId": {"name":"spr_Esquina","path":"sprites/spr_Esquina/spr_Esquina.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1bbe0910-e430-4437-8ea9-d90436c2ab50","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f19345d2-057c-43cb-ac96-3ddf737443f4","path":"sprites/spr_esquina/spr_esquina.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4e6d644c-a72c-40ea-b8bf-576a14b17f2b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"47677ecb-dd41-499e-843a-0f120f2bd111","path":"sprites/spr_Esquina/spr_Esquina.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_esquina","path":"sprites/spr_esquina/spr_esquina.yy",},
+    "parent": {"name":"spr_Esquina","path":"sprites/spr_Esquina/spr_Esquina.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_esquina",
+    "name": "spr_Esquina",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"66373602-2528-460d-bdcd-270c6716dfb2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"204149c8-23f1-4f92-99ce-5b38d2e2627f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Entorno",
-    "path": "folders/Sprites/Entorno.yy",
+    "name": "Cosas",
+    "path": "folders/Sprites/Cosas.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_esquina",
+  "name": "spr_Esquina",
   "tags": [],
   "resourceType": "GMSprite",
 }

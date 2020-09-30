@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_esquina",
-    "path": "sprites/spr_esquina/spr_esquina.yy",
+    "name": "spr_Esquina",
+    "path": "sprites/spr_Esquina/spr_Esquina.yy",
   },
   "solid": false,
   "visible": true,
