@@ -9,8 +9,6 @@ if(vivir){
 	move_down = keyboard_check(ord("S"));
 	move_left = keyboard_check(ord("A"));
 	move_right = keyboard_check(ord("D"));
-	left_clic = mouse_check_button_pressed(mb_left);
-	space = keyboard_check(vk_space);
 
 	
 	//--------------------PLAYER MOVEMENT CALCULUS
@@ -38,14 +36,6 @@ if(vivir){
 	scr_collition();
 	x += move_X;
 	y += move_Y;
-	
-	///----------------- SHOOTING	
-	if(left_clic){
-		inst = instance_create_layer(x,y,"Bullets",obj_bullet);
-		dir = point_direction(x,y, mouse_x, mouse_y);
-		inst.direction = dir;
-		inst.image_angle = dir;
-		audio_play_sound(snd_gun,1,false)
-	}
+
 	
 }else{ image_index = 0; }

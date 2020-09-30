@@ -1,2 +1,4 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
+
+rotated = false;
+x_gun = 0;
+y_gun = 0;

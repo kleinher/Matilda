@@ -21,6 +21,7 @@
     {"id":{"name":"obj_upWall","path":"objects/obj_upWall/obj_upWall.yy",},"order":6,},
     {"id":{"name":"snd_wtf2","path":"sounds/snd_wtf2/snd_wtf2.yy",},"order":4,},
     {"id":{"name":"obj_muerto2","path":"objects/obj_muerto2/obj_muerto2.yy",},"order":4,},
+    {"id":{"name":"scr_shootBullet","path":"scripts/scr_shootBullet/scr_shootBullet.yy",},"order":5,},
     {"id":{"name":"spr_l","path":"sprites/spr_l/spr_l.yy",},"order":3,},
     {"id":{"name":"spr_upWallOpen","path":"sprites/spr_upWallOpen/spr_upWallOpen.yy",},"order":8,},
     {"id":{"name":"spr_matilda","path":"sprites/spr_matilda/spr_matilda.yy",},"order":0,},
