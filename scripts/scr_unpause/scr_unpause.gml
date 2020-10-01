@@ -3,5 +3,4 @@
 function scr_unpause(){
 	obj_NPC.vivir = true;
 	scr_cutscene_end_action();
-	show_debug_message("entro unpause")
 }

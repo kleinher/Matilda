@@ -105,6 +105,7 @@
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":5,},
     {"id":{"name":"snd_allwaysLikeThis","path":"sounds/snd_allwaysLikeThis/snd_allwaysLikeThis.yy",},"order":0,},
     {"id":{"name":"spr_leon","path":"sprites/spr_leon/spr_leon.yy",},"order":1,},
+    {"id":{"name":"obj_orden","path":"objects/obj_orden/obj_orden.yy",},"order":7,},
     {"id":{"name":"obj_lvl1","path":"objects/obj_lvl1/obj_lvl1.yy",},"order":0,},
     {"id":{"name":"spr_upWall","path":"sprites/spr_upWall/spr_upWall.yy",},"order":6,},
     {"id":{"name":"obj_wallNoDoor","path":"objects/obj_wallNoDoor/obj_wallNoDoor.yy",},"order":7,},

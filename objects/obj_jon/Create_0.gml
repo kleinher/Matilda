@@ -4,3 +4,4 @@ event_inherited();
 spd = 6
 image_speed = .4
 
+inst = -4;

@@ -9,8 +9,9 @@ if(vivir){
 	move_down = keyboard_check(ord("S"));
 	move_left = keyboard_check(ord("A"));
 	move_right = keyboard_check(ord("D"));
-
-	
+	interaction = keyboard_check_pressed(ord("F"));
+	space = keyboard_check_pressed(vk_space)
+	right_clic = mouse_check_button_pressed(mb_right)
 	//--------------------PLAYER MOVEMENT CALCULUS
 	move_Y = (move_down - move_up);
 	move_X = (move_right - move_left);
@@ -33,6 +34,18 @@ if(vivir){
 		image_index = 0;	
 	}
 	
+	// INTERACTION WITH MATILDA
+	if(right_clic){
+		obj_matilda.onCommand = true;
+		if(inst != -4){
+			instance_destroy(inst);	
+		}
+		inst = instance_create_layer(mouse_x,mouse_y,"Ordenes",obj_orden);
+	}
+	if(space){
+		obj_matilda.onCommand = false;	
+		
+	}
 	scr_collition();
 	x += move_X;
 	y += move_Y;

@@ -4,7 +4,6 @@ function scr_cutscene_wait(){
 	{
 		timer = 0;	
 		scr_cutscene_end_action();
-		show_debug_message("entro wait")
 	}
 	timer ++;
 }
