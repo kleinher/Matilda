@@ -4,7 +4,6 @@ function scr_enemy_attack(){
 	my_dir = point_direction(x,y,obj_jon.x, obj_jon.y);
 	move_X = lengthdir_x(spd, my_dir);
 	move_Y = lengthdir_y(spd, my_dir);
-	show_debug_message(move_X)
 	scr_collition();
 	x += move_X;
 	y += move_Y;

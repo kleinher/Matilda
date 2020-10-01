@@ -1,11 +1,11 @@
-
+if(vivir){
 if(instance_exists(obj_jon)){
 	if(rotated){
 		x_gun= obj_jon.x-7*2;
 		y_gun= obj_jon.y-11*2;
 	}else{
-		x_gun= obj_jon.x+7*2;
-		y_gun= obj_jon.y-11*2;
+		x_gun= obj_jon.x+16;
+		y_gun= obj_jon.y+10;
 	}
 
 	x=x_gun;
@@ -16,3 +16,4 @@ depth = obj_jon.depth-1;
 
 image_xscale = 1;
 image_yscale = 1;
+}

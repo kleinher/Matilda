@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9409a4ab-e622-47ea-a087-25caae986a8d","path":"sprites/gun3/gun3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9409a4ab-e622-47ea-a087-25caae986a8d","path":"sprites/gun3/gun3.yy",},"LayerId":{"name":"3a479bdb-a63b-4691-beef-9abd24355378","path":"sprites/gun3/gun3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"gun3","path":"sprites/gun3/gun3.yy",},"resourceVersion":"1.0","name":"9409a4ab-e622-47ea-a087-25caae986a8d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e668dce0-83a0-40ba-a5ec-0592742b8d8f","path":"sprites/spr_gun2/spr_gun2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e668dce0-83a0-40ba-a5ec-0592742b8d8f","path":"sprites/spr_gun2/spr_gun2.yy",},"LayerId":{"name":"2400e0e7-202b-41c8-88b0-c32af56420c2","path":"sprites/spr_gun2/spr_gun2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_gun2","path":"sprites/spr_gun2/spr_gun2.yy",},"resourceVersion":"1.0","name":"e668dce0-83a0-40ba-a5ec-0592742b8d8f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"gun3","path":"sprites/gun3/gun3.yy",},
+    "spriteId": {"name":"spr_gun2","path":"sprites/spr_gun2/spr_gun2.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"424625d2-9c8a-4877-97c3-3ff540ccf57b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9409a4ab-e622-47ea-a087-25caae986a8d","path":"sprites/gun3/gun3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"4647e847-38dc-4099-97ea-6dfc9a16f60e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e668dce0-83a0-40ba-a5ec-0592742b8d8f","path":"sprites/spr_gun2/spr_gun2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,25 +54,25 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 16,
+    "xorigin": 17,
     "yorigin": 35,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"gun3","path":"sprites/gun3/gun3.yy",},
+    "parent": {"name":"spr_gun2","path":"sprites/spr_gun2/spr_gun2.yy",},
     "resourceVersion": "1.3",
-    "name": "gun3",
+    "name": "spr_gun2",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3a479bdb-a63b-4691-beef-9abd24355378","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2400e0e7-202b-41c8-88b0-c32af56420c2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Gun",
+    "path": "folders/Sprites/Gun.yy",
   },
   "resourceVersion": "1.0",
-  "name": "gun3",
+  "name": "spr_gun2",
   "tags": [],
   "resourceType": "GMSprite",
 }

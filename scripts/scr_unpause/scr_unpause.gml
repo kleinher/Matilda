@@ -2,5 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_unpause(){
 	obj_NPC.vivir = true;
-	scene +=1;
+	scr_cutscene_end_action();
+	show_debug_message("entro unpause")
 }

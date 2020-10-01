@@ -2,5 +2,5 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_pause(){
 	obj_NPC.vivir = false;
-	scene+=1;
+	scr_cutscene_end_action();
 }

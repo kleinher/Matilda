@@ -3,3 +3,5 @@
 event_inherited()
 spd = 1;
 image_speed = .4
+sprite_move = spr_matilda_d;
+sprite_idle = spr_matilda_idle;

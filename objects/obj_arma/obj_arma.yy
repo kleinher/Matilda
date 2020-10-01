@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "gun3",
-    "path": "sprites/gun3/gun3.yy",
+    "name": "spr_gun3",
+    "path": "sprites/spr_gun3/spr_gun3.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_NPC",
+    "path": "objects/obj_NPC/obj_NPC.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
