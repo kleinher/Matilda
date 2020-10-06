@@ -6,7 +6,7 @@ if(objeto != noone){
 }
 
 if(!entro){
-	//scribble_set_wrap(boxWidth,boxHight/2, true);
+	scribble_set_wrap(boxWidth,boxHight/2, false);
 	scribble_draw(x, y, texto, "");
 	scribble_autotype_fade_in(texto, 1, 1, false, "");
 	entro = true;

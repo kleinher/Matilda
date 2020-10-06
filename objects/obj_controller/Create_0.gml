@@ -10,6 +10,9 @@ enum states {
 global.teclaF = noone;
 
 
+
+//Initialization of Scribble variables
+
 scribble_init("", "fnt_textBox", false);
 
 //Add the font called "fnt_dialogue" to Scribble
