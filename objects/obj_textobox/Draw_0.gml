@@ -12,4 +12,3 @@ if(!entro){
 	entro = true;
 }
 scribble_draw(x, y, texto, "");
-show_debug_message(texto)
