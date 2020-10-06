@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 28,
-  "bbox_right": 111,
+  "bbox_left": 19,
+  "bbox_right": 110,
   "bbox_top": 10,
-  "bbox_bottom": 161,
+  "bbox_bottom": 126,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 128,
-  "height": 163,
+  "height": 127,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d9675cc7-5c34-4e2c-9a5f-a763660e2583","path":"sprites/spr_leon/spr_leon.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d9675cc7-5c34-4e2c-9a5f-a763660e2583","path":"sprites/spr_leon/spr_leon.yy",},"LayerId":{"name":"ce728eef-ad65-4548-8338-c46f52bfe545","path":"sprites/spr_leon/spr_leon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_leon","path":"sprites/spr_leon/spr_leon.yy",},"resourceVersion":"1.0","name":"d9675cc7-5c34-4e2c-9a5f-a763660e2583","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f3f4eb3e-9ad6-41cb-8a04-6885ddc34e98","path":"sprites/spr_matildaDialogo/spr_matildaDialogo.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f3f4eb3e-9ad6-41cb-8a04-6885ddc34e98","path":"sprites/spr_matildaDialogo/spr_matildaDialogo.yy",},"LayerId":{"name":"d9317c38-50cb-473f-acb1-7222d98cdf56","path":"sprites/spr_matildaDialogo/spr_matildaDialogo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_matildaDialogo","path":"sprites/spr_matildaDialogo/spr_matildaDialogo.yy",},"resourceVersion":"1.0","name":"f3f4eb3e-9ad6-41cb-8a04-6885ddc34e98","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_leon","path":"sprites/spr_leon/spr_leon.yy",},
+    "spriteId": {"name":"spr_matildaDialogo","path":"sprites/spr_matildaDialogo/spr_matildaDialogo.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8ee922dd-ee8a-4d18-800b-322b8d5caca8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d9675cc7-5c34-4e2c-9a5f-a763660e2583","path":"sprites/spr_leon/spr_leon.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"57d0bbe2-9d58-454e-9ffd-e2219fde2b29","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f3f4eb3e-9ad6-41cb-8a04-6885ddc34e98","path":"sprites/spr_matildaDialogo/spr_matildaDialogo.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_leon","path":"sprites/spr_leon/spr_leon.yy",},
+    "parent": {"name":"spr_matildaDialogo","path":"sprites/spr_matildaDialogo/spr_matildaDialogo.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_leon",
+    "name": "spr_matildaDialogo",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ce728eef-ad65-4548-8338-c46f52bfe545","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d9317c38-50cb-473f-acb1-7222d98cdf56","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Gente",
     "path": "folders/Sprites/Gente.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_leon",
+  "name": "spr_matildaDialogo",
   "tags": [],
   "resourceType": "GMSprite",
 }

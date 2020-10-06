@@ -3,15 +3,15 @@
 if(vivir){
 	
 	
-	//--------------SPEED BY WITCH THE PLAYER MOVES NORMALLY
 	//--------------WHERE I WANT TO MOVE
 	move_up = keyboard_check(ord("W"));
 	move_down = keyboard_check(ord("S"));
 	move_left = keyboard_check(ord("A"));
 	move_right = keyboard_check(ord("D"));
-	interaction = keyboard_check_pressed(ord("F"));
-	space = keyboard_check_pressed(vk_space)
-	right_clic = mouse_check_button_pressed(mb_right)
+	interaction = global.teclaF;
+	space = keyboard_check_pressed(vk_space);
+	right_clic = mouse_check_button_pressed(mb_right);
+	
 	//--------------------PLAYER MOVEMENT CALCULUS
 	move_Y = (move_down - move_up);
 	move_X = (move_right - move_left);
@@ -46,6 +46,7 @@ if(vivir){
 		obj_matilda.onCommand = false;	
 		
 	}
+	
 	scr_collition();
 	x += move_X;
 	y += move_Y;
