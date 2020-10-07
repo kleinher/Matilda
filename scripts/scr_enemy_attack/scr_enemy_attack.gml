@@ -5,6 +5,7 @@ function scr_enemy_attack(){
 	move_X = lengthdir_x(spd, my_dir);
 	move_Y = lengthdir_y(spd, my_dir);
 	scr_collition();
+	scr_enemy_sprite();
 	x += move_X;
 	y += move_Y;
 	
@@ -13,6 +14,5 @@ function scr_enemy_attack(){
 	}
 	//Sprite
 	//Sprite
-	sprite_index = spr_enemigo_d;
 	//image_xscale = sign(move_X);
 }

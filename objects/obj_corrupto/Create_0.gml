@@ -15,4 +15,4 @@ my_dir = irandom_range(0,359);
 move_X = lengthdir_x(spd, my_dir);
 move_Y = lengthdir_y(spd, my_dir);
 counter = 0;
-image_speed = .4
+image_speed = .4;

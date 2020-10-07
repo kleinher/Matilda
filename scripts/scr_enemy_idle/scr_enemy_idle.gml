@@ -18,4 +18,4 @@ function scr_enemy_idle(){
 	//Sprite
 	sprite_index = spr_enemigo_d;
 	image_index = 0;
-}
+} 

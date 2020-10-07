@@ -6,6 +6,7 @@ function scr_enemy_alert(){
 	move_X = lengthdir_x(spd, my_dir);
 	move_Y = lengthdir_y(spd, my_dir);
 	scr_collition();
+	scr_enemy_sprite();
 	x += move_X;
 	y += move_Y;
 
@@ -21,7 +22,6 @@ function scr_enemy_alert(){
 	//Sprite
 	draw_sprite(spr_exclamation,noone,x,y)
 	//Sprite
-	sprite_index = spr_enemigo_d;
 	//image_xscale = sign(move_X);
 	//image_xscale = sign(move_X);
 }	

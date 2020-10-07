@@ -25,10 +25,10 @@ function scr_enemy_wonder(){
 		state = states.alert;	
 	}
 	scr_collition();
+	scr_enemy_sprite();
 	
 	
 	//Sprite
-	sprite_index = spr_enemigo_d;
 	//image_xscale = sign(move_X);
 	
 }
