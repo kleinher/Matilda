@@ -1,9 +1,10 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
 camera = camera_create();
-
-var vm = matrix_build_lookat(x,y,-10,x,y,0,0,1,0);
-var pm = matrix_build_projection_ortho(720,720,1,10000);
+global.view_height = 640;
+global.view_width = 720;
+var vm = matrix_build_lookat(x,y,0,x,y,0,0,1,0);
+var pm = matrix_build_projection_ortho(global.view_width,global.view_height,1,10000);
 
 
 camera_set_view_mat(camera,vm);
@@ -13,4 +14,5 @@ view_camera[0] = camera;
 
 follow = obj_jon;
 xTo = x;
-yTo = y;
+//yTo = y;
+

@@ -4,8 +4,7 @@ if(key_scape){
      pause = !pause;
 	if(pause)
 	{
-		
-		id_menu = instance_create_depth(0,0,-1000,menu);	
+		id_menu = instance_create_depth(obj_jon.x,obj_jon.y,-1,menu);	
 		obj_camera.follow = id_menu;
 		obj_NPC.vivir = false;
 	}

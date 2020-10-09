@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_enemigo_d",
+    "path": "sprites/spr_enemigo_d/spr_enemigo_d.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

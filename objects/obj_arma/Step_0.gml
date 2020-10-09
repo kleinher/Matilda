@@ -2,10 +2,9 @@ if(vivir){
 	
 	
 	//GUN DISPLAY
-	dir = point_direction(x,y,mouse_x,mouse_y);
+	dir = point_direction(obj_jon.x,obj_jon.y,mouse_x,mouse_y);
 	image_angle = dir;
 	rotated = sign(lengthdir_x(1,dir));
-	show_debug_message(dir)
 	
 	scr_shootBullet();
 	
