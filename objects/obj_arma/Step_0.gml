@@ -1,19 +1,27 @@
 if(vivir){
-if(instance_exists(obj_jon)){
-	if(rotated){
-		x_gun= obj_jon.x-7*2;
-		y_gun= obj_jon.y-11*2;
-	}else{
-		x_gun= obj_jon.x+16;
-		y_gun= obj_jon.y+10;
+	
+	
+	//GUN DISPLAY
+	dir = point_direction(x,y,mouse_x,mouse_y);
+	image_angle = dir;
+	rotated = sign(lengthdir_x(1,dir));
+	show_debug_message(dir)
+	
+	scr_shootBullet();
+	
+	//GUN POSITION
+	y_gun= obj_jon.y+18;
+	if(instance_exists(obj_jon)){
+		
+		if(!rotated){
+			image_yscale = -1;
+			x_gun= obj_jon.x-17;
+		}else{
+			image_yscale = 1;
+			x_gun= obj_jon.x+17;
+		}
+
+		x=x_gun;
+		y=y_gun;
 	}
-
-	x=x_gun;
-	y=y_gun;
-}
-scr_shootBullet();
-depth = obj_jon.depth-1;
-
-image_xscale = 1;
-image_yscale = 1;
 }

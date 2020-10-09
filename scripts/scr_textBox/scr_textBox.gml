@@ -12,7 +12,6 @@ function scr_textBox(){
 
 	if(instance_exists(inst) and global.teclaF){
 		instance_destroy(inst);
-		show_debug_message("entro")
 		scr_cutscene_end_action();
 	}
 }

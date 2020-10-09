@@ -15,6 +15,7 @@ if(vivir){
 	//--------------------PLAYER MOVEMENT CALCULUS
 	move_Y = (move_down - move_up);
 	move_X = (move_right - move_left);
+	
 	if(move_Y != 0 or move_X != 0){
 		if(!audio_is_playing(snd_pasos)){audio_play_sound(snd_pasos,1,false)}
 		dir = point_direction(0,0,move_X,move_Y);	
@@ -47,6 +48,7 @@ if(vivir){
 		
 	}
 	
+
 	scr_collition();
 	x += move_X;
 	y += move_Y;

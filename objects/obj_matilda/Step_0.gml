@@ -67,7 +67,6 @@ else{
 
 		} else {
 			
-			show_debug_message("Entro aca mpete")
 			// Sprite idle	
 			sprite_index = spr_matilda_idle;
 			x = obj_orden.x;

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3a479bdb-a63b-4691-beef-9abd24355378","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Gun",
-    "path": "folders/Sprites/Gun.yy",
+    "name": "arma",
+    "path": "folders/Sprites/arma.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_gun3",
