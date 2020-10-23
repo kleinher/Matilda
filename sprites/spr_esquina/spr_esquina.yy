@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"47677ecb-dd41-499e-843a-0f120f2bd111","path":"sprites/spr_Esquina/spr_Esquina.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"47677ecb-dd41-499e-843a-0f120f2bd111","path":"sprites/spr_Esquina/spr_Esquina.yy",},"LayerId":{"name":"204149c8-23f1-4f92-99ce-5b38d2e2627f","path":"sprites/spr_Esquina/spr_Esquina.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Esquina","path":"sprites/spr_Esquina/spr_Esquina.yy",},"resourceVersion":"1.0","name":"47677ecb-dd41-499e-843a-0f120f2bd111","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"54cf91ab-92cb-4c45-9abe-b3e301b354cf","path":"sprites/spr_Esquina/spr_Esquina.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"54cf91ab-92cb-4c45-9abe-b3e301b354cf","path":"sprites/spr_Esquina/spr_Esquina.yy",},"LayerId":{"name":"d54d64e3-312d-406f-bef3-f45d1c12eb72","path":"sprites/spr_Esquina/spr_Esquina.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Esquina","path":"sprites/spr_Esquina/spr_Esquina.yy",},"resourceVersion":"1.0","name":"54cf91ab-92cb-4c45-9abe-b3e301b354cf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_Esquina","path":"sprites/spr_Esquina/spr_Esquina.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4e6d644c-a72c-40ea-b8bf-576a14b17f2b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"47677ecb-dd41-499e-843a-0f120f2bd111","path":"sprites/spr_Esquina/spr_Esquina.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"59698b51-c948-481e-b7dc-0bbbd3cda634","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"54cf91ab-92cb-4c45-9abe-b3e301b354cf","path":"sprites/spr_Esquina/spr_Esquina.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 64,
+    "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_Esquina","path":"sprites/spr_Esquina/spr_Esquina.yy",},
@@ -65,11 +65,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"204149c8-23f1-4f92-99ce-5b38d2e2627f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d54d64e3-312d-406f-bef3-f45d1c12eb72","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Cosas",
-    "path": "folders/Sprites/Cosas.yy",
+    "name": "Entorno",
+    "path": "folders/Sprites/Entorno.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Esquina",

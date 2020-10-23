@@ -3,12 +3,12 @@
 
 
 
-x += (xTo-x)/25;
-//y += (yTo-y)/25;
+//x += (xTo-x)/25;
+y += (yTo-y)/25;
 
 if(follow != noone){
-	xTo = follow.x;
-	//yTo = follow.y;
+	//xTo = follow.x;
+	yTo = follow.y;
 	
 }
 
