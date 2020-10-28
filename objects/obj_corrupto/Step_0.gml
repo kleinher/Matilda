@@ -6,4 +6,5 @@ if(vivir){
 	//Collition
 	scr_collition();
 }
-else{ image_index = 0; }
+else{ //image_index = 0;
+	}

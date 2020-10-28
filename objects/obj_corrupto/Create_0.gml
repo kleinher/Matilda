@@ -16,3 +16,6 @@ move_X = lengthdir_x(spd, my_dir);
 move_Y = lengthdir_y(spd, my_dir);
 counter = 0;
 image_speed = .4;
+
+sprite_idle = spr_enemigo_d;
+sprite_move = spr_enemigo_d;
