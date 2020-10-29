@@ -12,7 +12,7 @@ camera_set_proj_mat(camera,pm);
 
 view_camera[0] = camera;
 
-follow = obj_jon;
+follow = obj_camera;
 //xTo = x;
 x=obj_jon.x
 yTo = y;

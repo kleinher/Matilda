@@ -30,9 +30,6 @@ var yy = y_dest;
 with(obj){
 	//Sprite walk
 	sprite_index = sprite_move;
-	show_debug_message(xx)
-	show_debug_message(yy)
-	
 	if(point_distance(x,y,xx,yy) >= spd){
 		var dir = point_direction(x,y,xx,yy);
 		var ldirx = lengthdir_x(spd,dir);

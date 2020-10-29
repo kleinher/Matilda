@@ -13,10 +13,11 @@ scene_info = [
 	[scr_moveCharacter, inst_3AA8E83,-300,0,true,2],
 	[scr_cutscene_wait,3],
 	[scr_audio_stop_sound, snd_bandidos],
+	[scr_fadeIn],
 	[scr_cutscene_wait,3],
-
 	[scr_audio_play_sound, snd_cutscene_PulpFiction,1,false],
 	[scr_cutscene_wait,7],
+	[scr_fadeOut],
 	[scr_moveCamera,obj_matilda],
 	[scr_audio_play_sound, snd_matilda_scene1,1,false],
 	[scr_cutscene_wait,3],
