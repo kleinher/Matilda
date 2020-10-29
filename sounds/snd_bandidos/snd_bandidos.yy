@@ -14,7 +14,7 @@
   "duration": 50.7739563,
   "parent": {
     "name": "Scene1",
-    "path": "folders/Sounds/Sonidos/Scene1.yy",
+    "path": "folders/Sounds/Scene1.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_bandidos",
