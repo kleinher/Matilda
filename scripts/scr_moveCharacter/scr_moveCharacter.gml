@@ -30,6 +30,9 @@ var yy = y_dest;
 with(obj){
 	//Sprite walk
 	sprite_index = sprite_move;
+	show_debug_message(xx)
+	show_debug_message(yy)
+	
 	if(point_distance(x,y,xx,yy) >= spd){
 		var dir = point_direction(x,y,xx,yy);
 		var ldirx = lengthdir_x(spd,dir);
@@ -37,17 +40,14 @@ with(obj){
 	
 		//if(ldirx != 0) { image_xscale = sign(ldirx); }
 		if(!audio_is_playing(snd_pasos)){audio_play_sound(snd_pasos,1,false)}
-		x += ldirx;
-		y += ldiry;
-			
-
-	} else {
-		// Sprite idle	
-		sprite_index = sprite_idle;
-		x = xx;
-		y = yy;
+			x += ldirx;
+			y += ldiry;
+		} else {
+			// Sprite idle	
+			sprite_index = sprite_idle;
+			x = xx;
+			y = yy;
 		with(other){
-			
 			x_dest = -1;
 			y_dest = -1;
 			scr_cutscene_end_action();
