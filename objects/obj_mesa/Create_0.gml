@@ -1,8 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-created = false;
-cantPuertas = 3;
-puertas = [];
-enemigo = [];
-areaAggro = 100;
-sprite = 0;
+volteada = false;
+spd = 0.3;
+a=0;
+b=0;

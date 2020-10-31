@@ -21,7 +21,7 @@ if(vivir and !onCommand){
 
 
 	// -------MOVE IF THERE IS NO COLLITION
-	if(!place_meeting(x,y,obj_jon)){
+	if(!collision_circle(x,y,110,obj_jon,false,false)){
 		if(!audio_is_playing(snd_pasos)){audio_play_sound(snd_pasos,1,false)}
 		scr_collition();
 		x += move_X*spd;
@@ -58,7 +58,6 @@ else{
 		}
 	
 		if(point_distance(x,y,obj_orden.x,obj_orden.y) >= spd){
-			show_debug_message(point_distance(x,y,obj_orden.x,obj_orden.y) )
 			//if(ldirx != 0) { image_xscale = sign(ldirx); }
 		
 			x += move_X*spd;
@@ -76,7 +75,7 @@ else{
 
 		}
 		// -------MOVE IF THERE IS NO COLLITION
-		/*
+	/*	
 		if(!place_meeting(x,y,obj_jon)){
 			if(!audio_is_playing(snd_pasos)){audio_play_sound(snd_pasos,1,false)}
 			scr_collition();
@@ -86,8 +85,10 @@ else{
 		else{
 			image_index = 0;
 		}
-		}
 		*/
+		}
+
+		
 	}
-}
+
 	
