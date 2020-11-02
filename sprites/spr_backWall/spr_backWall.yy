@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8c59df47-78c2-47c7-ab55-f9fb8bcf7387","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Entorno",
-    "path": "folders/Sprites/Entorno.yy",
+    "name": "Pared",
+    "path": "folders/Sprites/Entorno/Pared.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_backWall",

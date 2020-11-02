@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "NPC",
-    "path": "folders/Objects/NPC.yy",
+    "name": "Puerta",
+    "path": "folders/Objects/Entorno/Puerta.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_CuadradoColision",

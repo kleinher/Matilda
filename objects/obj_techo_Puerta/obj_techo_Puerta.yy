@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_upWallOpen",
-    "path": "sprites/spr_upWallOpen/spr_upWallOpen.yy",
+    "name": "spr_techo_Puerta",
+    "path": "sprites/spr_techo_Puerta/spr_techo_Puerta.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/Entorno.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_upWall",
+  "name": "obj_techo_Puerta",
   "tags": [],
   "resourceType": "GMObject",
 }

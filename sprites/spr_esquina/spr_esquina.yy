@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 127,
+  "bbox_right": 130,
   "bbox_top": 0,
   "bbox_bottom": 127,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 128,
+  "width": 131,
   "height": 128,
   "textureGroupId": {
     "name": "Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"54cf91ab-92cb-4c45-9abe-b3e301b354cf","path":"sprites/spr_Esquina/spr_Esquina.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"54cf91ab-92cb-4c45-9abe-b3e301b354cf","path":"sprites/spr_Esquina/spr_Esquina.yy",},"LayerId":{"name":"d54d64e3-312d-406f-bef3-f45d1c12eb72","path":"sprites/spr_Esquina/spr_Esquina.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_Esquina","path":"sprites/spr_Esquina/spr_Esquina.yy",},"resourceVersion":"1.0","name":"54cf91ab-92cb-4c45-9abe-b3e301b354cf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6d3a6b21-47df-44f8-ab47-1b28e2f68274","path":"sprites/spr_Esquina/spr_Esquina.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6d3a6b21-47df-44f8-ab47-1b28e2f68274","path":"sprites/spr_Esquina/spr_Esquina.yy",},"LayerId":{"name":"f2504b53-2b87-47bd-8e4d-f7ddd32101fd","path":"sprites/spr_Esquina/spr_Esquina.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_Esquina","path":"sprites/spr_Esquina/spr_Esquina.yy",},"resourceVersion":"1.0","name":"6d3a6b21-47df-44f8-ab47-1b28e2f68274","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_Esquina","path":"sprites/spr_Esquina/spr_Esquina.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"59698b51-c948-481e-b7dc-0bbbd3cda634","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"54cf91ab-92cb-4c45-9abe-b3e301b354cf","path":"sprites/spr_Esquina/spr_Esquina.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2f9389c2-fe02-4a5a-8706-b102f72e0586","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6d3a6b21-47df-44f8-ab47-1b28e2f68274","path":"sprites/spr_Esquina/spr_Esquina.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 64,
+    "xorigin": 65,
     "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,11 +65,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d54d64e3-312d-406f-bef3-f45d1c12eb72","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f2504b53-2b87-47bd-8e4d-f7ddd32101fd","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Entorno",
-    "path": "folders/Sprites/Entorno.yy",
+    "name": "Pared",
+    "path": "folders/Sprites/Entorno/Pared.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_Esquina",

@@ -2,7 +2,7 @@
 // Puede escribir su código en este editor
 a = clamp(a+ (fade * 0.05),0,1);
 
-
+//El fade -1 está en scr_fadeOut
 
 if(a == 0) && (fade == -1)
 {
