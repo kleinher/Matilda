@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Puerta",
-    "path": "folders/Objects/Entorno/Puerta.yy",
+    "name": "Puerta_Superior",
+    "path": "folders/Objects/Entorno/Puerta_Superior.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_controlador_Puertas",
