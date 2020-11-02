@@ -9,6 +9,7 @@ var start_y = (gheight/2) - ((((ds_height-1)/2)*y_buffer)), start_x = gwidth/2;
 
 var c= c_black;
 draw_rectangle_color(0,0,gwidth,gheight,c,c,c,c,false);
+draw_sprite_ext(spr_background,noone,0,gheight/4,4.82,5,0,noone,1)
 
 //Draw elements on left side
 
@@ -29,7 +30,7 @@ var yy = 0; repeat(ds_height){
 	draw_text_color(ltx+xo, lty, ds_grid[# 0, yy],c,c,c,c,1);
 	yy++;
 }
-draw_text_ext_transformed_color(start_x + (gwidth/4)+40, start_y - (gheight/4), "JUEGUITO",20,10,10,10,0,c_fuchsia,c_orange,c_fuchsia,c_orange,1);
+draw_text_ext_transformed_color(start_x + 60, start_y - (gheight/4)+30, "MATILDA",0,10,2,2,0,c,c,c,c,1);
 //Draw Dividing Line
 
 draw_line(start_x, start_y-y_buffer,start_x, lty+y_buffer);

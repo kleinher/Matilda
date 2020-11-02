@@ -12,7 +12,6 @@ function scr_table_Movement(){
 			image_angle = clamp(a,image_angle,image_angle+10);	
 		}
 		b+=1;
-		show_debug_message(b)
 	}
 	
 	
