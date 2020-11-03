@@ -10,7 +10,7 @@ if(rotacion < 90)
 	
 	x=knife_X;
 	y=knife_Y;
-	rotacion +=5;
+	rotacion +=10;
 }else{
 	instance_destroy();
 	

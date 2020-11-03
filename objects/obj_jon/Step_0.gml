@@ -45,7 +45,6 @@ if(vivir){
 	}
 	if(space){
 		obj_matilda.onCommand = false;	
-		
 	}
 	
 
@@ -54,4 +53,9 @@ if(vivir){
 	y += move_Y;
 
 	
-}else{ image_index = 0; }
+}else{ sprite_index = spr_leon_dead_down 
+		if(alarm[0] < 0 and Only_one_death){
+			alarm[0] = 3*room_speed;
+		}
+		
+	}

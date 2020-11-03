@@ -1,10 +1,4 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-if(image_alpha > 0)
-{
-
-	image_alpha -= 0.09
-}else{
-	instance_destroy();
-	
-}
+inst = instance_create_depth(0,0,-2,obj_fadeIn2)
+Only_one_death = false;

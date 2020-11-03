@@ -21,7 +21,7 @@ function scr_enemy_wonder(){
 		
 		}
 	}
-	if(collision_circle(x,y,100,obj_jon,false,false)){
+	if(collision_circle(x,y,640,obj_jon,false,false)){
 		state = states.alert;	
 	}
 	scr_collition();

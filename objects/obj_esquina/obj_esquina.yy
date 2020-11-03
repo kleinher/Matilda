@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_corner_LU",
+    "path": "objects/obj_corner_LU/obj_corner_LU.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

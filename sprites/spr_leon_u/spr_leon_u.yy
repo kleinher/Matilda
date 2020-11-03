@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5677f335-13d3-4de5-a75d-71fcb8b8f59e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Leon",
-    "path": "folders/Sprites/Leon.yy",
+    "name": "Alive",
+    "path": "folders/Sprites/Leon/Alive.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_leon_u",
