@@ -7,3 +7,4 @@ image_speed = .4
 spriteDialogo = spr_leonDialogo
 inst = -4;
 Only_one_death = true;
+live = true;

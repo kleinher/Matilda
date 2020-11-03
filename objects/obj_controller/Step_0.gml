@@ -6,13 +6,13 @@ if(key_scape){
 	{
 		id_menu = instance_create_depth(obj_jon.x,obj_jon.y,-1,menu);	
 		obj_camera.follow = id_menu;
-		obj_NPC.vivir = false;
+		obj_NPC.pause = false;
 	}
 	else
 	{
 		obj_camera.follow = obj_jon;
 		instance_destroy(id_menu);
-		obj_NPC.vivir = true;
+		obj_NPC.pause = true;
 	}
 }
 

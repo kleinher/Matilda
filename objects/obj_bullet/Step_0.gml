@@ -1,6 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-if(vivir){
+if(pause){
 	
 	speed = 11;
 	

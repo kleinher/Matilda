@@ -1,4 +1,4 @@
-if(vivir and !onCommand){
+if(pause and !onCommand){
 	//---------Get direction to jon
 	dir = point_direction(x,y,obj_jon.x,obj_jon.y);	
 	move_X = lengthdir_x(spd,dir);

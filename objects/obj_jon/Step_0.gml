@@ -1,6 +1,6 @@
 
 //THIS IS FOR PAUSE PURPUSE
-if(vivir){
+if(pause){
 	
 	
 	//--------------WHERE I WANT TO MOVE
@@ -51,11 +51,13 @@ if(vivir){
 	scr_collition();
 	x += move_X;
 	y += move_Y;
-
-	
-}else{ sprite_index = spr_leon_dead_down 
+	if(!live){
+		sprite_index = spr_leon_dead_down 
 		if(alarm[0] < 0 and Only_one_death){
 			alarm[0] = 3*room_speed;
 		}
-		
 	}
+	
+}else{ 
+	
+}

@@ -1,4 +1,4 @@
-if(vivir){
+if(pause){
 	
 	
 	//GUN DISPLAY
