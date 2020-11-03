@@ -3,8 +3,8 @@
 function scr_enemy_alert(){
 	//Behaviour
 	my_dir = point_direction(x,y,obj_jon.x, obj_jon.y);
-	move_X = lengthdir_x(spd, my_dir);
-	move_Y = lengthdir_y(spd, my_dir);
+	move_X = lengthdir_x(attack_spd, my_dir);
+	move_Y = lengthdir_y(attack_spd, my_dir);
 	scr_collition();
 	scr_enemy_sprite();
 	x += move_X;

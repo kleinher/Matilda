@@ -18,6 +18,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_CuadradoColision","path":"objects/obj_CuadradoColision/obj_CuadradoColision.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.75,"scaleY":4.1640625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":204.25,"y":1254.42188,"resourceVersion":"1.0","name":"inst_30EC27E2","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_CuadradoColision","path":"objects/obj_CuadradoColision/obj_CuadradoColision.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.390625,"scaleY":4.1640625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":434.859375,"y":1251.42188,"resourceVersion":"1.0","name":"inst_D51DD7F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_techo_Puerta","path":"objects/obj_techo_Puerta/obj_techo_Puerta.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":330.5,"y":1318.75,"resourceVersion":"1.0","name":"inst_72E6693A","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_corrupto","path":"objects/obj_corrupto/obj_corrupto.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":1824.0,"resourceVersion":"1.0","name":"inst_305D3FD4","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Dialogos","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_Arriba","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -109,6 +110,7 @@
     {"name":"inst_2C84B7CC","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_52898A88","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_72E6693A","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_305D3FD4","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

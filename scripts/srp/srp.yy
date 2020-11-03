@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Table.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_table_Depth",
+  "name": "srp",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -10,6 +10,7 @@ script_state[states.attack] = scr_enemy_attack;
 state = 0;
 counter = 0;
 spd = 2;
+attack_spd = 6;
 
 my_dir = irandom_range(0,359);
 move_X = lengthdir_x(spd, my_dir);
@@ -19,3 +20,6 @@ image_speed = .4;
 
 sprite_idle = spr_enemigo_d;
 sprite_move = spr_enemigo_d;
+
+inst_knife = noone;
+attack_hitbox = 30;
