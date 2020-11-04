@@ -18,7 +18,6 @@ function scr_enemy_wonder(){
 				move_Y = lengthdir_y(spd, my_dir);
 				counter = 0;
 			break;
-		
 		}
 	}
 	if(collision_circle(x,y,640,obj_jon,false,false)){
@@ -26,8 +25,6 @@ function scr_enemy_wonder(){
 	}
 	scr_collition();
 	scr_enemy_sprite();
-	
-	
 	//Sprite
 	//image_xscale = sign(move_X);
 	

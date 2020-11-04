@@ -20,6 +20,7 @@ enum menu_element_type{
 };
 
 ds_menu_main = create_menu_page(
+	["RESTART",	menu_element_type.script_runner,	restart_game],
 	["RESUME",	menu_element_type.script_runner,	resume_game],
 	["SETTINGS",	menu_element_type.page_transfer,	menu_page.settings],
 	["EXIT",	menu_element_type.script_runner,	exit_game],

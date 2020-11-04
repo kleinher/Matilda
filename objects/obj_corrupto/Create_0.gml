@@ -9,7 +9,8 @@ script_state[states.attack] = scr_enemy_attack;
 
 state = 0;
 counter = 0;
-spd = 2;
+spd = 4;
+alert_spd = 6;
 attack_spd = 8;
 
 my_dir = irandom_range(0,359);

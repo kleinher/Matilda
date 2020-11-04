@@ -13,10 +13,10 @@ global.teclaF = noone;
 
 //Initialization of Scribble variables
 
-scribble_init("", "fnt_textBox", false);
+//scribble_init("", "fnt_textBox", false);
 
 //Add the font called "fnt_dialogue" to Scribble
-scribble_add_font("fnt_textBox");
+//scribble_add_font("fnt_textBox");
 
 
 pause = false;

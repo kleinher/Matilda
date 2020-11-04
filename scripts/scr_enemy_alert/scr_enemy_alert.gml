@@ -3,8 +3,8 @@
 function scr_enemy_alert(){
 	//Behaviour
 	my_dir = point_direction(x,y,obj_jon.x, obj_jon.y);
-	move_X = lengthdir_x(6, my_dir);
-	move_Y = lengthdir_y(6, my_dir);
+	move_X = lengthdir_x(alert_spd, my_dir);
+	move_Y = lengthdir_y(alert_spd, my_dir);
 	scr_collition();
 	scr_enemy_sprite();
 	if(!instance_exists(inst_knife) and !collision_circle(x,y,20,obj_jon,false,false)){
@@ -12,7 +12,7 @@ function scr_enemy_alert(){
 		y += move_Y;	
 	}
 	//Transition Triggers
-	if(!collision_circle(x,y, 256, obj_jon, false, false)){
+	if(!collision_circle(x,y, 640, obj_jon, false, false)){
 		state = states.idle;	
 	}
 	

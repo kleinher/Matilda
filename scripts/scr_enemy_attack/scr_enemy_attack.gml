@@ -11,7 +11,7 @@ function scr_enemy_attack(){
 			y += move_Y;
 	}
 	
-	if(!collision_circle(x,y,128,obj_jon,false,false)){
+	if(!collision_circle(x,y,256,obj_jon,false,false)){
 		state = states.alert;	
 	}
 	if(collision_circle(x,y,attack_hitbox,obj_jon,false,false) and (inst_knife == noone)){
@@ -24,13 +24,10 @@ function scr_enemy_attack(){
 		inst_knife.enemy_Y= y;
 		inst_knife.my_dir=my_dir;
 		inst_knife.attack_hitbox = attack_hitbox;
-		
 	}
 	if(!instance_exists(inst_knife)){
 			inst_knife =noone;	
-			
 		}
-
 	//Sprite
 	//Sprite
 	//image_xscale = sign(move_X);

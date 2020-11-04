@@ -195,6 +195,7 @@
     {"id":{"name":"spr_lamp_broke","path":"sprites/spr_lamp_broke/spr_lamp_broke.yy",},"order":9,},
     {"id":{"name":"snd_bandidos","path":"sounds/snd_bandidos/snd_bandidos.yy",},"order":0,},
     {"id":{"name":"obj_NPC","path":"objects/obj_NPC/obj_NPC.yy",},"order":5,},
+    {"id":{"name":"restart_game","path":"scripts/restart_game/restart_game.yy",},"order":7,},
     {"id":{"name":"scr_table_UpsideDown","path":"scripts/scr_table_UpsideDown/scr_table_UpsideDown.yy",},"order":2,},
     {"id":{"name":"obj_knife_Debri","path":"objects/obj_knife_Debri/obj_knife_Debri.yy",},"order":9,},
     {"id":{"name":"spr_d","path":"sprites/spr_d/spr_d.yy",},"order":0,},

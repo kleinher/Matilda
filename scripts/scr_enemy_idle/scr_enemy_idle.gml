@@ -14,6 +14,7 @@ function scr_enemy_idle(){
 	if(collision_circle(x,y,640, obj_jon, false, false)){
 		state = states.alert;
 	}
+
 	
 	//Sprite
 	sprite_index = spr_enemigo_d;
