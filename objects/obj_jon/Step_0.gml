@@ -1,5 +1,6 @@
 
 //THIS IS FOR PAUSE PURPUSE
+event_inherited();
 if(pause){
 	
 	

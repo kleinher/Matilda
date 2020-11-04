@@ -3,3 +3,7 @@
 
 
 pause = true;
+fade = false;
+unfade = false;
+fade_spd = 0.06
+a = 1;

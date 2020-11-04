@@ -1,3 +1,5 @@
+event_inherited();
+
 if(pause and !onCommand){
 	//---------Get direction to jon
 	dir = point_direction(x,y,obj_jon.x,obj_jon.y);	

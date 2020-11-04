@@ -3,8 +3,6 @@
 ancho=80;
 alto=310;
 a = 1;
-fade_OUT = -1;
-fade_spd = 0.06
 
 
 instance_collition = noone;
