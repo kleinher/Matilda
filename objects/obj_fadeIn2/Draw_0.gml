@@ -7,7 +7,6 @@ if(a == 1)
 {
 	fade = -1;
 	instance_create_depth(0,0,-1,menu)
-	show_message("entro")
 }
 if(a == 0) && (fade == -1)
 {

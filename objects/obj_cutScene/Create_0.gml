@@ -2,15 +2,29 @@ timer = 0;
 scene = 0;
 inst = noone;
 
+//instances used in cutscene
+enemy1 = instance_create_layer(170,-450,"Instances_Arriba",obj_corrupto);
+enemy2 = instance_create_layer(170,-325,"Instances_Arriba",obj_corrupto);
+enemy3 = instance_create_layer(400,-400,"Instances_Arriba",obj_corrupto);
+ 
 scene_info = [
 	[scr_pause],
-	//[scr_audio_play_sound,],
 	[scr_audio_play_sound, snd_bandidos,1,false],
-	[scr_moveCamera,inst_48AE14C9],
-	[scr_move_Many_Characters,1],
-	[scr_moveCharacter, inst_3AA8E83,0,1000,true,2],
+	[scr_moveCamera,enemy1],
+	[scr_move_Many_Characters,enemy1,enemy2],
+	[scr_change_sprite,enemy1,spr_enemigo_dl,-1],
+	[scr_change_sprite,enemy2,spr_enemigo_ul,1],
+	[scr_cutscene_wait,0.1],
+	[scr_change_sprite,enemy1,spr_enemigo_l,-1],
+	[scr_change_sprite,enemy2,spr_enemigo_u,1],
+	[scr_cutscene_wait,0.1],
+	[scr_change_sprite,enemy2,spr_enemigo_ul,-1],
+	[scr_cutscene_wait,0.1],
+	[scr_change_sprite,enemy2,spr_enemigo_l,-1],
+	[scr_change_sprite,enemy3,spr_Boss_d,1],
+	[scr_moveCharacter, enemy3,0,1125,true,2],
 	[scr_cutscene_wait,3],
-	[scr_moveCharacter, inst_3AA8E83,-300,0,true,2],
+	[scr_moveCharacter, enemy3,-300,0,true,2],
 	[scr_cutscene_wait,3],
 	[scr_audio_stop_sound, snd_bandidos],
 	[scr_fadeIn],
