@@ -12,4 +12,6 @@ switch(len){
 	case 3: script_execute(current_scene[0],current_scene[1],current_scene[2],current_scene[3]); break;
 	case 4: script_execute(current_scene[0],current_scene[1],current_scene[2],current_scene[3],current_scene[4]); break;
 	case 5: script_execute(current_scene[0],current_scene[1],current_scene[2],current_scene[3],current_scene[4],current_scene[5]); break;
+	case 6: script_execute(current_scene[0],current_scene[1],current_scene[2],current_scene[3],current_scene[4],current_scene[5],current_scene[6]); break;
+	case 7: script_execute(current_scene[0],current_scene[1],current_scene[2],current_scene[3],current_scene[4],current_scene[5],current_scene[6],current_scene[7]); break;
 }

@@ -2,6 +2,6 @@
 // @arg NPC 1
 // @arg NPC 2
 function scr_move_Many_Characters(){
-	scr_moveCharacter(argument0,0,1240,true,3);
-	scr_moveCharacter(argument1,0,0,true,3);
+	scr_moveCharacter(argument0,0,1240,true,3,spr_enemigo_d,1);
+	scr_moveCharacter(argument1,0,0,true,3,spr_enemigo_d,1);
 }

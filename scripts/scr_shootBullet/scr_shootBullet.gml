@@ -15,6 +15,7 @@ function scr_shootBullet(){
 		var inst = instance_create_layer(obj_arma.x_gun + x_pos ,obj_arma.y_gun + y_pos,"Bullets", obj_bullet);
 		inst.direction = dir;
 		inst.direction = dir;
+		inst.image_angle = dir;
 		audio_play_sound(snd_gun,1,false);
 		//audio_play_sound(snd_smallShot,1,false);
 		

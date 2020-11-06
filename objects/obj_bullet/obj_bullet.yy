@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite8",
-    "path": "sprites/Sprite8/Sprite8.yy",
+    "name": "spr_Boss_bala",
+    "path": "sprites/spr_Boss_bala/spr_Boss_bala.yy",
   },
   "solid": false,
   "visible": true,

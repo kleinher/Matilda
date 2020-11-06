@@ -9,5 +9,6 @@ function scr_change_sprite(){
 	
 	instance.sprite_index = sprite;
 	instance.image_xscale = xscale;
+
 	scr_cutscene_end_action();
 }

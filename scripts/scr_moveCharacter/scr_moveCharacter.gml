@@ -4,10 +4,11 @@
 ///@arg y
 ///@arg	relative?
 ///@arg spd
-
+///@arg sprite
+///@arg xscale
 
 function scr_moveCharacter(){
-var obj = argument0, relative =argument3, spd = argument4;
+var obj = argument0, relative =argument3, spd = argument4, sprite = argument5,xscale = argument6;
 
 if(x_dest == -1)
 {
@@ -29,7 +30,8 @@ var yy = y_dest;
 
 with(obj){
 	//Sprite walk
-	sprite_index = sprite_move;
+	sprite_index = sprite;
+	image_xscale = xscale;
 	if(point_distance(x,y,xx,yy) >= spd){
 		var dir = point_direction(x,y,xx,yy);
 		var ldirx = lengthdir_x(spd,dir);
@@ -41,7 +43,7 @@ with(obj){
 			y += ldiry;
 		} else {
 			// Sprite idle	
-			sprite_index = sprite_idle;
+			sprite_index = sprite_index[0]
 			x = xx;
 			y = yy;
 		with(other){

@@ -27,7 +27,7 @@ function scr_enemy_attack(){
 	}
 	if(!instance_exists(inst_knife)){
 			inst_knife =noone;	
-		}
+	}
 	//Sprite
 	//Sprite
 	//image_xscale = sign(move_X);
