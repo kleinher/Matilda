@@ -9,7 +9,7 @@ enemy3 = instance_create_layer(400,-400,"Instances_Arriba",obj_corrupto);
  
 scene_info = [
 	[scr_pause],
-	[scr_audio_play_sound, snd_bandidos,1,false],
+/*	[scr_audio_play_sound, snd_bandidos,1,false],
 	[scr_moveCamera,enemy1],
 	[scr_move_Many_Characters,enemy1,enemy2],
 	[scr_change_sprite,enemy1,spr_enemigo_dl,-1],
@@ -30,13 +30,30 @@ scene_info = [
 	[scr_fadeIn],
 	[scr_cutscene_wait,3],
 	[scr_audio_play_sound, snd_cutscene_PulpFiction,1,false],
-	[scr_cutscene_wait,7],
-	[scr_fadeOut],
+	[scr_cutscene_wait,7],*/
 	[scr_moveCamera,obj_matilda],
-	[scr_audio_play_sound, snd_matilda_scene1,1,false],
-	[scr_cutscene_wait,3],
-	[scr_moveCharacter, obj_matilda,10,400,true,2],
 	[scr_textBox,obj_matilda,"Please let me in "],
+	[scr_moveCamera,obj_jon],
+	[scr_textBox,obj_jon,"Ni apalo loca rescatate"],
+	[scr_moveCamera,obj_matilda],
+
+	[scr_textBox,obj_matilda,"Por favor wachin"],
+		[scr_moveCamera,obj_jon],
+
+	[scr_textBox,obj_jon,"Ni a palo estas re sarpada en logi"],
+	[scr_moveCamera,obj_matilda],
+
+	[scr_textBox,obj_matilda,"Me estan por [c_red] [shake] re matar [/shake] [c_white]estos loros perrito abrime"],
+		[scr_moveCamera,obj_jon],
+
+	[scr_textBox,obj_jon,"[wobble] Vo tene que pregunta nosotro primero [/wobble]"],
+
+	[scr_audio_play_sound, snd_matilda_scene1,1,false],
+	//[scr_fadeOut],
+	[scr_moveCharacter, obj_matilda,325,525,false,2],
+	
+	[scr_cutscene_wait,0.5],
+	[scr_moveCharacter, obj_matilda,325,1100,false,1],
 	[scr_textBox,obj_matilda,"[c_red] DEJAME ENTRAR LA CONCHA DE TU MADRE"],
 	[scr_textBox,obj_matilda,"[c_red] [shake] DALE QUE ME CAGO QUEMANDO [/shake]"],
 	[scr_textBox,obj_matilda,"[wave] SKEREEEEEEEEEEEEEE [/wave]"],
@@ -45,7 +62,6 @@ scene_info = [
 	//[scr_cutscene_wait,3],
 	[scr_unpause],
 	//[scr_audio_play_sound],
-	[scr_moveCamera,obj_matilda],
 	
 ]
 

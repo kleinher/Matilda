@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 2,
+  "bbox_left": 1,
   "bbox_right": 48,
-  "bbox_top": 8,
+  "bbox_top": 0,
   "bbox_bottom": 49,
   "HTile": false,
   "VTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"66e58901-d89b-439b-a7c7-495b3e10f743","path":"sprites/spr_matilda/spr_matilda.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"66e58901-d89b-439b-a7c7-495b3e10f743","path":"sprites/spr_matilda/spr_matilda.yy",},"LayerId":{"name":"7bac8f3c-865e-46a2-af10-663f9483a162","path":"sprites/spr_matilda/spr_matilda.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_matilda","path":"sprites/spr_matilda/spr_matilda.yy",},"resourceVersion":"1.0","name":"66e58901-d89b-439b-a7c7-495b3e10f743","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"356c9e99-4b30-4e7c-8f43-e36f358fb2cd","path":"sprites/spr_BossDialog/spr_BossDialog.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"356c9e99-4b30-4e7c-8f43-e36f358fb2cd","path":"sprites/spr_BossDialog/spr_BossDialog.yy",},"LayerId":{"name":"9990c66c-d72e-4bc7-a536-1b4444d2447e","path":"sprites/spr_BossDialog/spr_BossDialog.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_BossDialog","path":"sprites/spr_BossDialog/spr_BossDialog.yy",},"resourceVersion":"1.0","name":"356c9e99-4b30-4e7c-8f43-e36f358fb2cd","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_matilda","path":"sprites/spr_matilda/spr_matilda.yy",},
+    "spriteId": {"name":"spr_BossDialog","path":"sprites/spr_BossDialog/spr_BossDialog.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f5e6faba-4353-413d-b548-d03d9ef6e7f5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"66e58901-d89b-439b-a7c7-495b3e10f743","path":"sprites/spr_matilda/spr_matilda.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"920e6ce6-e089-4aa1-bb29-632ef1771e53","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"356c9e99-4b30-4e7c-8f43-e36f358fb2cd","path":"sprites/spr_BossDialog/spr_BossDialog.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_matilda","path":"sprites/spr_matilda/spr_matilda.yy",},
+    "parent": {"name":"spr_BossDialog","path":"sprites/spr_BossDialog/spr_BossDialog.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_matilda",
+    "name": "spr_BossDialog",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7bac8f3c-865e-46a2-af10-663f9483a162","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9990c66c-d72e-4bc7-a536-1b4444d2447e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Dialogos",
     "path": "folders/Sprites/Dialogos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_matilda",
+  "name": "spr_BossDialog",
   "tags": [],
   "resourceType": "GMSprite",
 }

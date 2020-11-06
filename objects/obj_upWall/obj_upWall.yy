@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_upWallOpen",
-    "path": "sprites/spr_upWallOpen/spr_upWallOpen.yy",
+    "name": "spr_upWall",
+    "path": "sprites/spr_upWall/spr_upWall.yy",
   },
   "solid": false,
   "visible": true,

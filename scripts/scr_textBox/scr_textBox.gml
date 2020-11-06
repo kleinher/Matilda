@@ -5,7 +5,7 @@ function scr_textBox(){
 	var pj = argument0;
 	var texto = argument1;
 	if(!instance_exists(inst)){
-		inst = instance_create_layer(pj.x,pj.y,"Dialogos",obj_textobox);
+		inst = instance_create_layer(pj.x,pj.y-100,"Dialogos",obj_textobox);
 		inst.texto = texto;
 		inst.objeto = pj;
 	}
