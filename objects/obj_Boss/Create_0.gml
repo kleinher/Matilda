@@ -13,5 +13,6 @@ pause = false;
 sprite_idle = spr_Boss_d;
 sprite_move = spr_Boss_d;
 
+spriteDialogo = spr_BossDialog
 inst_knife = noone;
 attack_hitbox = 20;

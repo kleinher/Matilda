@@ -6,41 +6,46 @@ inst = noone;
 enemy1 = instance_create_layer(170,-450,"Instances_Arriba",obj_corrupto);
 enemy2 = instance_create_layer(170,-325,"Instances_Arriba",obj_corrupto);
 Boss = instance_create_layer(400,-400,"Instances_Arriba",obj_Boss);
+pared = instance_create_layer(60,882,"Paredes",obj_Rwall);
+pared.image_yscale = -1;
 Boss.image_alpha = 0;
 obj_matilda.image_alpha = 0;
- 
+obj_muerto2.image_alpha = 0;
 scene_info = [
 	[scr_pause],
 	//Enemys
 	[scr_audio_play_sound, snd_bandidos,1,false],
 	[scr_moveCamera,enemy1],
 	[scr_move_Many_Characters,enemy1,enemy2],
-	[scr_change_sprite,enemy1,spr_enemigo_dl,-1],
-	[scr_change_sprite,enemy2,spr_enemigo_ul,1],
+	[scr_change_sprite,enemy1,spr_enemigo_dl,-1,1],
+	[scr_change_sprite,enemy2,spr_enemigo_ul,1,1],
 	[scr_cutscene_wait,0.1],
-	[scr_change_sprite,enemy1,spr_enemigo_l_idle,-1],
-	[scr_change_sprite,enemy2,spr_enemigo_u,1],
+	[scr_change_sprite,enemy1,spr_enemigo_l_idle,-1,1],
+	[scr_change_sprite,enemy2,spr_enemigo_u,1,1],
 	[scr_cutscene_wait,0.1],
-	[scr_change_sprite,enemy2,spr_enemigo_ul,-1],
+	[scr_change_sprite,enemy2,spr_enemigo_ul,-1,1],
 	[scr_cutscene_wait,0.1],
-	[scr_change_sprite,enemy2,spr_enemigo_l_idle,-1],
+	[scr_change_sprite,enemy2,spr_enemigo_l_idle,-1,1],
 	//Boss
 	[scr_change_alpha, Boss, 1],
-	[scr_change_sprite,Boss,spr_Boss_d,1],
+	[scr_change_sprite,Boss,spr_Boss_d,1,1],
 	[scr_moveCharacter,Boss,0,1125,true,2,spr_Boss_d,1],
-	[scr_change_sprite,Boss,spr_Boss_d_idle,1],
+	[scr_change_sprite,Boss,spr_Boss_d_idle,1,1],
+	[scr_textBox,obj_Boss,"Al toque ahora los vamos a hacer cagar"],
 	[scr_cutscene_wait,1],
-	[scr_moveCharacter, Boss,-300,0,true,2,spr_Boss_L,1],
+	[scr_moveCharacter, Boss,-200,0,true,2,spr_Boss_L,1],
+	[scr_change_sprite,pared,spr_wallOpen,1,-1,1],
+	[scr_moveCharacter, Boss,-100,0,true,2,spr_Boss_L,1],
 	[scr_moveCamera,enemy2],
 	[scr_fadeOut_NPC, Boss],
 	[scr_cutscene_wait,1],
 	
 	//ENEMYS2 ENTER
-	[scr_change_sprite,enemy2,spr_enemigo_u,-1],
+	[scr_change_sprite,enemy2,spr_enemigo_u,-1,1],
 	//[scr_change_sprite,enemy2,spr_enemigo_d,1],
 	[scr_cutscene_wait,0.1],
 	[scr_moveCharacter,enemy2,170,735,false,2,spr_enemigo_u,1],
-	[scr_change_sprite,enemy2,spr_enemigo_l,1],
+	[scr_change_sprite,enemy2,spr_enemigo_l,1,1],
 	[scr_cutscene_wait,0.1],
 	[scr_moveCharacter,enemy2,90,735,false,2,spr_enemigo_l,1],
 	[scr_moveCamera,enemy1],
@@ -57,13 +62,15 @@ scene_info = [
 	
 	
 	//Matilda
-	
+	[scr_change_alpha,obj_muerto2, 1],
 	[scr_audio_play_sound, snd_matilda_scene1,1,false],
 	[scr_fadeOut],
 	[scr_moveCharacter, obj_matilda,325,525,false,2,spr_matilda_d,1],
+	[scr_change_sprite,obj_matilda,spr_matilda_d_idle,1,1],
 	[scr_cutscene_wait,0.5],
-	[scr_moveCharacter, obj_matilda,325,1100,false,1,spr_matilda_d,1],
-	[scr_change_sprite,obj_matilda,spr_matilda_d_idle,1],
+	[scr_change_imagespeed, obj_matilda,0.3],
+	[scr_moveCharacter, obj_matilda,325,1050,false,1,spr_matilda_d,1],
+	[scr_change_sprite,obj_matilda,spr_matilda_d_idle,1,1],
 	
 	
 	//Dialog
