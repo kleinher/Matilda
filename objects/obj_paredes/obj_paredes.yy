@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_backWall",
-    "path": "sprites/spr_backWall/spr_backWall.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_paredes",
-    "path": "objects/obj_paredes/obj_paredes.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,17 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_backWall","path":"objects/obj_backWall/obj_backWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Entorno",
-    "path": "folders/Objects/Entorno.yy",
+    "name": "Utilidades",
+    "path": "folders/Objects/Utilidades.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_backWall",
+  "name": "obj_paredes",
   "tags": [],
   "resourceType": "GMObject",
 }

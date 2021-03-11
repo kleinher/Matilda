@@ -69,7 +69,7 @@ else{
 		} else {
 			
 			// Sprite idle	
-			sprite_index = spr_matilda_idle;
+			sprite_index = sprite_idle;
 			x = obj_orden.x;
 			y = obj_orden.y;
 

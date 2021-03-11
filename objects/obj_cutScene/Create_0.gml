@@ -54,6 +54,7 @@ scene_info = [
 	
 	//Pulp fiction
 	[scr_fadeIn],
+	[scr_audio_stop_sound, snd_bandidos],
 	[scr_cutscene_wait,3],
 	[scr_audio_play_sound, snd_cutscene_PulpFiction,1,false],
 	[scr_change_alpha, obj_matilda, 1],
@@ -63,15 +64,15 @@ scene_info = [
 	
 	//Matilda
 	[scr_change_alpha,obj_muerto2, 1],
-	[scr_audio_play_sound, snd_matilda_scene1,1,false],
+	[scr_audio_play_sound, snd_matilda_scene1_beginning,1,true],
 	[scr_fadeOut],
 	[scr_moveCharacter, obj_matilda,325,525,false,2,spr_matilda_d,1],
 	[scr_change_sprite,obj_matilda,spr_matilda_d_idle,1,1],
 	[scr_cutscene_wait,0.5],
 	[scr_change_imagespeed, obj_matilda,0.3],
+	[scr_textBox,obj_matilda,"[shake] .................???????????[/shake]"],
 	[scr_moveCharacter, obj_matilda,325,1050,false,1,spr_matilda_d,1],
 	[scr_change_sprite,obj_matilda,spr_matilda_d_idle,1,1],
-	
 	
 	//Dialog
 	[scr_textBox,obj_matilda,"Please let me in "],
@@ -84,8 +85,10 @@ scene_info = [
 		[scr_moveCamera,obj_matilda],
 	[scr_textBox,obj_matilda,"Me estan por [c_red] [shake] re matar [/shake] [c_white]estos loros perrito abrime"],
 		[scr_moveCamera,obj_jon],
-	[scr_textBox,obj_jon,"[wobble] Vo tene que pregunta nosotro primero [/wobble]"],
-
+	[scr_textBox,obj_jon,"[wobble] Bueno [/wobble]"],
+	[scr_fadeIn],
+	[scr_audio_play_sound, snd_open_door,1,false],
+	[scr_cutscene_wait,1],
 	/*[scr_textBox,obj_matilda,"[c_red] DEJAME ENTRAR LA CONCHA DE TU MADRE"],
 	[scr_textBox,obj_matilda,"[c_red] [shake] DALE QUE ME CAGO QUEMANDO [/shake]"],
 	[scr_textBox,obj_matilda,"[wave] SKEREEEEEEEEEEEEEE [/wave]"],
@@ -93,8 +96,10 @@ scene_info = [
 	[scr_textBox,obj_matilda,"Y un [pulse] automovil [/pulse] se me atravezo y bueno [wheel][c_blue]ahora no se como estoy [/c_blue][/wheel]"],
 	*///[scr_cutscene_wait,3],
 	[scr_unpause],
-	//[scr_audio_play_sound],
 	
+	[scr_cutscene_wait,1],
+	//[scr_audio_play_sound],
+	[scr_fadeOut],
 ]
 
 event_perform(ev_other, ev_user0);

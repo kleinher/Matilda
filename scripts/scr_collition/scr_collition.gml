@@ -4,10 +4,12 @@ function scr_collition(){
 //-------------------DETECT COLITION WITH SOME OBJECT
 	//----- HORIZONTAL
 	if(move_X != 0 ){
-		if(place_meeting(x+move_X,y,obj_interactuable)){
+		if(place_meeting(x+move_X,y,obj_interactuable) or place_meeting(x+move_X,y,obj_paredes)){
 			
 			repeat(abs(move_X)){
-				if(!place_meeting(x+sign(move_X),y,obj_interactuable)){ x += sign(move_X) }
+				if(!place_meeting(x+sign(move_X),y,obj_interactuable) and !place_meeting(x+sign(move_X),y,obj_paredes)){
+					show_debug_message("ENTRA")
+					x += sign(move_X) }
 			
 			}
 			move_X = 0
@@ -16,11 +18,10 @@ function scr_collition(){
 
 	//----- VERTICAL
 	if(move_Y != 0 ){
-		if(place_meeting(x,y+move_Y,obj_interactuable)){
+		if(place_meeting(x,y+move_Y,obj_interactuable) or place_meeting(x,y+move_Y,obj_paredes)){
 			
 			repeat(abs(move_Y)){
-				if(!place_meeting(x,y+sign(move_Y),obj_interactuable)){ y += sign(move_Y) }
-
+				if(!place_meeting(x,y+sign(move_Y),obj_interactuable) and !place_meeting(x,y+sign(move_Y),obj_paredes)){ y += sign(move_Y) }
 			}
 			move_Y = 0
 		}

@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_corner_LU",
-    "path": "objects/obj_corner_LU/obj_corner_LU.yy",
+    "name": "obj_paredes",
+    "path": "objects/obj_paredes/obj_paredes.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

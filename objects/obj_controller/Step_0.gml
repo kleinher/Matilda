@@ -1,5 +1,6 @@
 /// @description Inserte aquí la descripción
 global.teclaF = keyboard_check_pressed(ord("F"))
+
 if(key_scape){
      pause = !pause;
 	if(pause)
