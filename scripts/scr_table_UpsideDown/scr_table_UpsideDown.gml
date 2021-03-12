@@ -3,8 +3,6 @@ function scr_table_UpsideDown(){
 	
 if(collision_circle(x,y,50,obj_jon,false,false)){
 	efe = keyboard_check(ord("F"))
-	show_debug_message("alarma 0 =")
-	show_debug_message(alarm[0])
 	if(!volteada and efe and alarm[0] < 0){
 		volteada = true;
 		y += 50;

@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "niveles",
-    "path": "folders/Objects/niveles.yy",
+    "name": "Nivel 1",
+    "path": "folders/Objects/niveles/Nivel 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_lvl1",

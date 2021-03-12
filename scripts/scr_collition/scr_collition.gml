@@ -8,7 +8,6 @@ function scr_collition(){
 			
 			repeat(abs(move_X)){
 				if(!place_meeting(x+sign(move_X),y,obj_interactuable) and !place_meeting(x+sign(move_X),y,obj_paredes)){
-					show_debug_message("ENTRA")
 					x += sign(move_X) }
 			
 			}

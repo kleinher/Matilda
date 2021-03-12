@@ -38,7 +38,7 @@ with(obj){
 		var ldiry = lengthdir_y(spd,dir);
 	
 		//if(ldirx != 0) { image_xscale = sign(ldirx); }
-		if(!audio_is_playing(snd_pasos)){audio_play_sound(snd_pasos,1,false)}
+		//if(!audio_is_playing(snd_pasos)){audio_play_sound(snd_pasos,1,false)}
 			x += ldirx;
 			y += ldiry;
 		} else {

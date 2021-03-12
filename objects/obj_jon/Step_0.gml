@@ -1,6 +1,8 @@
 
 //THIS IS FOR PAUSE PURPUSE
 event_inherited();
+
+
 if(pause){
 	
 	
@@ -10,9 +12,10 @@ if(pause){
 	move_left = keyboard_check(ord("A"));
 	move_right = keyboard_check(ord("D"));
 	interaction = global.teclaF;
+	
 	space = keyboard_check_pressed(vk_space);
 	right_clic = mouse_check_button_pressed(mb_right);
-	
+	//--------------- CONVERSATION WITH MATILDA
 	//--------------------PLAYER MOVEMENT CALCULUS
 	move_Y = (move_down - move_up);
 	move_X = (move_right - move_left);
@@ -60,5 +63,5 @@ if(pause){
 	}
 	
 }else{ 
-	
+	sprite_index = spr_leon_u_idle
 }
