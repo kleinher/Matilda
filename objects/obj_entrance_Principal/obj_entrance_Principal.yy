@@ -1,9 +1,12 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Sprite89",
+    "path": "sprites/Sprite89/Sprite89.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -18,17 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_entrance_Principal","path":"objects/obj_entrance_Principal/obj_entrance_Principal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Utilidades",
-    "path": "folders/Objects/Utilidades.yy",
+    "name": "Principal",
+    "path": "folders/Objects/niveles/Principal.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_camera",
+  "name": "obj_entrance_Principal",
   "tags": [],
   "resourceType": "GMObject",
 }

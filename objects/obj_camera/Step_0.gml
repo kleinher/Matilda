@@ -1,15 +1,9 @@
+x += (xTo-x)/25;
+y += (yTo-y)/25;
 
 
-
-
-
-//x += (xTo-x)/25;
-y_aux = y+(yTo-y)/25;
-if(y_aux < room_height-global.view_height/2){
-	y = y_aux
-}
 if(follow != noone){
-	//xTo = follow.x;
+	xTo = follow.x;
 	yTo = follow.y;
 	
 }
@@ -18,3 +12,8 @@ var pm = matrix_build_projection_ortho(global.view_width,global.view_height,1,10
 
 camera_set_view_mat(camera,vm);
 camera_set_proj_mat(camera,pm);
+
+if(last_room != room){
+	last_room = room
+	view_camera[0] = camera;
+}

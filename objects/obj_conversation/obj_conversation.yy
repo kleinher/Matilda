@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Utilidades",
-    "path": "folders/Objects/Utilidades.yy",
+    "name": "Escenas",
+    "path": "folders/Objects/Escenas.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_conversation",

@@ -45,7 +45,7 @@ scene_info = [
 	
 	[scr_moveCamera,obj_jon],
 	[scr_audio_play_sound, snd_8,1,false],
-	[scr_textBox,obj_jon,"Love or death?"],
+	[scr_textBox,obj_jon,"Love or death? *sigh*"],
 	
 	[scr_moveCamera,obj_jon],
 	[scr_audio_play_sound, snd_9,1,false],

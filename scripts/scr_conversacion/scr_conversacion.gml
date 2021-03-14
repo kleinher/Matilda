@@ -3,5 +3,6 @@
 function scr_conversacion(){
 	if(place_meeting(x,y,obj_jon) and !escena){
 		escena = instance_create_depth(x,y,0,obj_conversation)
+		image_blend = c_lime
 	}
 }

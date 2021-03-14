@@ -16,5 +16,13 @@ if(key_scape){
 		obj_NPC.pause = true;
 	}
 }
+if(!scrible){
+	//Initialization of Scribble variables
+	scribble_init("", "fnt_textBox", false);
 
+	//Add the font called "fnt_dialogue" to Scribble
+	scribble_add_font("fnt_textBox");
+
+	scrible = true
+}
 key_scape = keyboard_check_pressed(vk_escape)
