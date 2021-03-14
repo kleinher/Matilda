@@ -1,6 +1,6 @@
 /// @description Inserte aquí la descripción
 // Puede escribir su código en este editor
-if(place_meeting(x-10,y,obj_jon)){
+if(place_meeting(x-40,y,obj_jon)){
 	
 	obj_lvl1_lvl2_puerta.sprite_index = spr_wall_lvl1	
 	if(!open){
@@ -16,6 +16,7 @@ if(place_meeting(x-10,y,obj_jon)){
 			obj_matilda.y = 370
 			obj_camera.x =  330
 			obj_camera.y =	370
+			
 		}
 		
 	}

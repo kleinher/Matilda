@@ -4,7 +4,6 @@ scr_conversacion();
 image_angle+=1;
 
 a = clamp(a+ (fade * 0.05),1,2);
-show_debug_message(fade)
 //El fade -1 está en scr_fadeOut
 
 if(image_xscale >= 2)
