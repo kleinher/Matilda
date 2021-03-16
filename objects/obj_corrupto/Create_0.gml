@@ -23,4 +23,4 @@ sprite_idle = spr_enemigo_d;
 sprite_move = spr_enemigo_d;
 
 inst_knife = noone;
-attack_hitbox = 20;
+attack_hitbox = 40;

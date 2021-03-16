@@ -1,6 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_enemy_attack(){
+	if(!obj_jon.live){state = states.wonder}
+	else{
 	my_dir = point_direction(x,y,obj_jon.x, obj_jon.y);
 	move_X = lengthdir_x(attack_spd, my_dir);
 	move_Y = lengthdir_y(attack_spd, my_dir);
@@ -31,4 +33,5 @@ function scr_enemy_attack(){
 	//Sprite
 	//Sprite
 	//image_xscale = sign(move_X);
+	}
 }

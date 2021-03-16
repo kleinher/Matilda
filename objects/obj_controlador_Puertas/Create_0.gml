@@ -8,3 +8,5 @@ a = 1;
 instance_collition = noone;
 instance_fade = noone;
 instance_unfade = noone;
+
+puerta_sonido = true;

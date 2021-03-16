@@ -18,6 +18,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_lvl1","path":"objects/obj_lvl1/obj_lvl1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.25,"scaleY":1.375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_69C971DD","path":"rooms/Room1/Room1.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":351.0,"y":2806.0,"resourceVersion":"1.0","name":"inst_69C971DD","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_corrupto","path":"objects/obj_corrupto/obj_corrupto.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1120.0,"y":320.0,"resourceVersion":"1.0","name":"inst_266CD19C","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Dialogos","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_Arriba","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Mesas","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -118,6 +119,7 @@
     {"name":"inst_18F11B2C","path":"rooms/rm_lvl1/rm_lvl1.yy",},
     {"name":"inst_19814175","path":"rooms/rm_lvl1/rm_lvl1.yy",},
     {"name":"inst_101C71C1","path":"rooms/rm_lvl1/rm_lvl1.yy",},
+    {"name":"inst_266CD19C","path":"rooms/rm_lvl1/rm_lvl1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

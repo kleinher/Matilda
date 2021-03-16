@@ -3,7 +3,7 @@
 event_inherited();
 
 
-if(pause){
+if(pause and live){
 	
 	
 	//--------------WHERE I WANT TO MOVE
@@ -55,13 +55,7 @@ if(pause){
 	scr_collition();
 	x += move_X;
 	y += move_Y;
-	if(!live){
-		sprite_index = spr_leon_dead_down 
-		if(alarm[0] < 0 and Only_one_death){
-			alarm[0] = 3*room_speed;
-		}
-	}
-	
-}else{ 
-	sprite_index = spr_leon_u_idle
+
+}else{
+	if(live){sprite_index = spr_leon_u_idle}
 }

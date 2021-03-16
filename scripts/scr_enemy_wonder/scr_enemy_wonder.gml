@@ -20,7 +20,7 @@ function scr_enemy_wonder(){
 			break;
 		}
 	}
-	if(collision_circle(x,y,640,obj_jon,false,false)){
+	if(collision_circle(x,y,640,obj_jon,false,false) and obj_jon.live){
 		state = states.alert;	
 	}
 	scr_collition();

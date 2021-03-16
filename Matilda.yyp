@@ -43,6 +43,7 @@
     {"id":{"name":"scr_textBox","path":"scripts/scr_textBox/scr_textBox.yy",},"order":7,},
     {"id":{"name":"scribble_draw","path":"scripts/scribble_draw/scribble_draw.yy",},"order":10,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"spr_gameOVER","path":"sprites/spr_gameOVER/spr_gameOVER.yy",},"order":29,},
     {"id":{"name":"obj_PantallaPrincipal","path":"objects/obj_PantallaPrincipal/obj_PantallaPrincipal.yy",},"order":0,},
     {"id":{"name":"spr_leon_ur","path":"sprites/spr_leon_ur/spr_leon_ur.yy",},"order":5,},
     {"id":{"name":"scr_enemy_sprite","path":"scripts/scr_enemy_sprite/scr_enemy_sprite.yy",},"order":4,},
@@ -284,6 +285,7 @@
     {"id":{"name":"spr_leonDialogo","path":"sprites/spr_leonDialogo/spr_leonDialogo.yy",},"order":1,},
     {"id":{"name":"obj_orden","path":"objects/obj_orden/obj_orden.yy",},"order":6,},
     {"id":{"name":"scribble_get_quad","path":"scripts/scribble_get_quad/scribble_get_quad.yy",},"order":13,},
+    {"id":{"name":"obj_gameOver","path":"objects/obj_gameOver/obj_gameOver.yy",},"order":12,},
     {"id":{"name":"obj_lvl1","path":"objects/obj_lvl1/obj_lvl1.yy",},"order":0,},
     {"id":{"name":"scribble_cache","path":"scripts/scribble_cache/scribble_cache.yy",},"order":9,},
     {"id":{"name":"change_resolution","path":"scripts/change_resolution/change_resolution.yy",},"order":1,},
@@ -313,8 +315,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},},
     {"roomId":{"name":"rm_lvl1","path":"rooms/rm_lvl1/rm_lvl1.yy",},},
   ],
   "Folders": [
