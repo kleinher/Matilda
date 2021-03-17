@@ -13,3 +13,4 @@ scrible = false;
 pause = false;
 key_scape = false;
 id_menu = 0;
+last_room = room;

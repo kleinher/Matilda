@@ -31,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "NPC",
-    "path": "folders/Objects/NPC.yy",
+    "name": "Leon",
+    "path": "folders/Objects/NPC/Leon.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_bullet",

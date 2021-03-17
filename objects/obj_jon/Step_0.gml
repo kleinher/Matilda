@@ -12,7 +12,6 @@ if(pause and live){
 	move_left = keyboard_check(ord("A"));
 	move_right = keyboard_check(ord("D"));
 	interaction = global.teclaF;
-	
 	space = keyboard_check_pressed(vk_space);
 	right_clic = mouse_check_button_pressed(mb_right);
 	//--------------- CONVERSATION WITH MATILDA
@@ -58,4 +57,13 @@ if(pause and live){
 
 }else{
 	if(live){sprite_index = spr_leon_u_idle}
+	else{
+		if(image_index = 3){
+			sprite_index = spr_leon_dead_down_idle	
+		}
+		if(keyboard_check(ord("K"))){
+			room_goto(rm_lvl1);
+			obj_jon.live = true;
+		}
+	}
 }

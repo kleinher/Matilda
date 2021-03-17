@@ -5,3 +5,4 @@ enemy_X = 0;
 enemy_Y= 0;
 my_dir = 0;
 attack_hitbox = 40;
+sangre = false;

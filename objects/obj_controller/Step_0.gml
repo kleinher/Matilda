@@ -16,5 +16,9 @@ if(key_scape){
 		obj_NPC.pause = true;
 	}
 }
-
+if(room != last_room){
+	last_room = room;
+	audio_play_sound(snd_nuve,1,false);
+	instance_create_layer(obj_jon.x,obj_jon.y-26,"Dialogos",obj_nuve);
+}
 key_scape = keyboard_check_pressed(vk_escape)

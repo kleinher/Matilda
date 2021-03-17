@@ -39,7 +39,7 @@ else{
 	//-----HERE IS THE ON COMMAND BEHAVIOR
 	if(!instance_exists(obj_cutScene) and !onCommand){image_index = 0; }
 	else{
-	if(onCommand){ 	
+	if(onCommand & obj_orden){ 	
 		//---------Get direction to Position
 		dir = point_direction(x,y,obj_orden.x,obj_orden.y);
 		move_X = lengthdir_x(spd,dir);
@@ -59,7 +59,7 @@ else{
 			case 315:sprite_index = spr_matilda_dr;break;
 		}
 	
-		if(point_distance(x,y,obj_orden.x,obj_orden.y) >= spd){
+		if(obj_orden && point_distance(x,y,obj_orden.x,obj_orden.y) >= spd){
 			//if(ldirx != 0) { image_xscale = sign(ldirx); }
 		
 			x += move_X*spd;

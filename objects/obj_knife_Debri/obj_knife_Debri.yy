@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "NPC",
-    "path": "folders/Objects/NPC.yy",
+    "name": "Enemigo",
+    "path": "folders/Objects/NPC/Enemigo.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_knife_Debri",

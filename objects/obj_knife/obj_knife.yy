@@ -23,12 +23,13 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_knife","path":"objects/obj_knife/obj_knife.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_knife","path":"objects/obj_knife/obj_knife.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_jon","path":"objects/obj_jon/obj_jon.yy",},"parent":{"name":"obj_knife","path":"objects/obj_knife/obj_knife.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "NPC",
-    "path": "folders/Objects/NPC.yy",
+    "name": "Enemigo",
+    "path": "folders/Objects/NPC/Enemigo.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_knife",

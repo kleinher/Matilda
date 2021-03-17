@@ -1,3 +1,4 @@
+event_inherited()
 if(pause){
 	
 	
@@ -9,7 +10,7 @@ if(pause){
 	scr_shootBullet();
 	
 	//GUN POSITION
-	y_gun= obj_jon.y+15;
+	y_gun= obj_jon.y-11;
 	if(instance_exists(obj_jon)){
 		
 		if(!rotated){

@@ -15,3 +15,11 @@ if(rotacion < 90)
 	instance_destroy();
 	
 }
+if(sangre){
+	repeat(50){
+		debri = instance_create_layer(obj_jon.x,obj_jon.y,"Instances_Abajo",obj_blood_debri);
+		debri.distance = irandom_range(0,40);
+		debri.direction = irandom_range(image_angle-20,image_angle+20);
+	}
+	
+}
