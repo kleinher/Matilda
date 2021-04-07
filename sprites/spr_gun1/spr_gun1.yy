@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"60795297-b8a4-4e7f-bc5d-0c3ce8e9c301","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "OldGun",
     "path": "folders/Sprites/arma/OldGun.yy",
