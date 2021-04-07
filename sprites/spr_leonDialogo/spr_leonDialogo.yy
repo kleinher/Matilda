@@ -67,7 +67,6 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"badd3cc1-034e-47d6-ad8e-4c1b9ec9b6f4","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": null,
   "parent": {
     "name": "Dialogos",
     "path": "folders/Sprites/Dialogos.yy",
