@@ -1,4 +1,4 @@
 # Matilda
 Prototipo de juego Matilda
-![](Dialogo.gif)
-![](Menu.gif)
+![](\gifs\Dialogo.gif)
+![](\gifs\Menu.gif)
